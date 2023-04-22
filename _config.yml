@@ -9,7 +9,6 @@ version: 2
 name: König KOUDOGBO
 title: Développeur web
 email: koudogbokonig@gmail.com
-website: konigkoudogbo.dev
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -45,29 +44,34 @@ linkedin_username: könig-koudogbo
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Apropos de moi
+about_title: A propos de moi
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Bonjour, je suis König KOUDOGBO. En tant que passionné de la technologie, j'ai axé mes études dans cette direction et je suis déterminé à utiliser les dernières 
-  <mark>technologies</mark> pour <mark>résoudre</mark> des <mark>problèmes</mark> et répondre à des besoins. Actuellement, je mets mes compétences en développement web au service de cette mission.
-
+  Je me présente, je suis König KOUDOGBO, un passionné de la technologie qui a orienté ses études dans cette voie. 
+  Mon objectif est d'utiliser les dernières <mark>technologies</mark> pour <mark>résoudre</mark> des <mark>problèmes</mark> et répondre aux besoins de manière innovante. 
+  
+  Mon domaine de prédilection est le développement web, dans lequel j'ai acquis une expérience de 2 ans et eu la chance de travailler sur plusieurs projets réussis, 
+  tels qu'une plateforme ayant déjà accueilli plus de 8000 utilisateurs. Bien que mes compétences soient principalement en développement back-end, je suis tout aussi à l'aise en 
+  front-end. Actuellement, je suis familiarisé avec les langages <mark>PHP (Laravel + API)</mark> et <mark>Javascript (Vue Js)</mark>, et j'aime explorer de nouvelles librairies et frameworks pour diversifier mes 
+  connaissances. Mon intérêt pour l'intelligence artificielle m'a également conduit à m'informer continuellement dans ce domaine, dans l'espoir d'appliquer cette expertise à la création de solutions innovantes.
+  
 content:
   - title: Mes projets # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Plateforme de candidature à l'Ecole d'Ete sur l'Intelligence Artificielle
-        link: eeia.bj
+        title: Plateforme de candidature à l'EEIA
+        # link: eeia.bj
         # link_text: Plateforme de candidature à l'Ecole d'Ete sur l'Intelligence Artificielle
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        additional_links:
+          - title:  EEIA
+            # icon: fab fa-github
+            url: eeia.beninexcellence.org
+          - title:  EEIA-Junior
+            # icon: fab fa-github
+            url: eeia.beninexcellence.org
         quote: >
-          J'ai été honoré de travailler sur ce projet et d'avoir eu la chance d'en apprendre autant sur le développement web que sur la gestion.
+          Cette plateforme permet une dématérialisation du processus de candidature à l'EEIA.
         description: | # this will include new lines to allow paragraphs
           Cette plateforme a pour but de permettre à tous ceux qui sont passionnés par l'Intelligence Artificielle de candidater pour l’EEIA (Ecole d’été sur l’intelligence artificielle). L’EEIA est une formation à 75% pratique qui s’étend sur une durée de 4 semaines dans les vacances. Cette formation a pour principal objet l’initiation au domaine de l’Intelligence Artificielle.
 
@@ -77,19 +81,29 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Bénin Excellence
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Développeur web
         caption: Mars 2021 - Août 2022 | Cotonou (Bénin)
-        quote: >
-          Créer des plateformes web de candidature
         description: | # this will include new lines to allow paragraphs
+            <ins>TLDR:</ins>
             - Effectuer la maintenance des plateformes et corriger régulièrement les dysfonctionnements
             - Optimiser les performances de la plateforme et faire évoluer ses fonctionnalités
             - Formation des jeunes sur les bases du langage de programmation Python aucours des éditions précédentes de l’École d’Été sur l’Intelligence Artificielle (EEIA) de la Fondation Vallet
             - Animation des ateliers de travaux pratiques sur l’Intelligence Artificielle au cours des éditions précédentes de l’École d’Été sur l’Intelligence Artificielle (EEIA)
             - Gestion du réseau informatique et des serveurs de l’organisation
+            
+            En tant que développeur web, j'ai eu la chance de travailler pour Bénin Excellence et de concevoir et développer des plateformes pour la Fondation Vallet. Plus précisément, j'ai créé des plateformes de candidatures pour les écoles d'art en France et pour l'Ecole d'Ete sur l'Intelligence Artificielle (EEIA). Chacune de ces plateformes comprenait une interface d'administration avec des fonctionnalités spécifiques telles que le téléchargement des dossiers des élèves par établissement ou la consultation et l'évaluation des dossiers de candidats.
+
+            En utilisant mes compétences en tant que développeur Back-end, j'ai développé ces plateformes en utilisant une architecture d'API et une application SPA. Pour le Backend, j'ai utilisé Laravel et pour le front, j'ai utilisé Vue Js. J'ai également accordé une grande importance à la sécurité des API et j'ai amélioré autant que possible les applications frontales.
+
+            En tant que seul développeur sur ces projets, j'ai utilisé mes expériences précédentes pour respecter les meilleures pratiques, telles que l'utilisation de GitHub ou la création d'environnements de test avant le déploiement. Ces projets m'ont permis de renforcer mes compétences en développement, mais aussi de découvrir de nouveaux outils passionnants.
+
+            En plus de mon rôle de développeur web, j'ai également été chargé de répondre aux questions techniques des utilisateurs en tant qu'informaticien principal de l'organisation. J'ai même eu l'occasion de modifier un portail captif pour empêcher certains appareils d'accéder à la connexion de l'organisation.
+
+            Enfin, j'ai également été formateur en langage Python lors de l'EEIA et j'ai eu l'honneur de superviser un atelier pratique sur l'optimisation des pales d'un hélicoptère pour les apprenants.
       
       - layout: left
         title: SerProWeb
@@ -97,8 +111,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Stage - Développeur web
         caption: Août 2020 - décembre 2020 | Cotonou (Bénin)
-        quote: >
-          Développeur back-end
         description: | # this will include new lines to allow paragraphs
             - Analyser les différents besoins du client
             - Coder le back-end des sites web
