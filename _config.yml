@@ -89,21 +89,25 @@ content:
         caption: Mars 2021 - Août 2022 | Cotonou (Bénin)
         description: | # this will include new lines to allow paragraphs
             <ins>TLDR:</ins>
-            - Effectuer la maintenance des plateformes et corriger régulièrement les dysfonctionnements
-            - Optimiser les performances de la plateforme et faire évoluer ses fonctionnalités
-            - Formation des jeunes sur les bases du langage de programmation Python aucours des éditions précédentes de l’École d’Été sur l’Intelligence Artificielle (EEIA) de la Fondation Vallet
-            - Animation des ateliers de travaux pratiques sur l’Intelligence Artificielle au cours des éditions précédentes de l’École d’Été sur l’Intelligence Artificielle (EEIA)
+            - Création de plateformes web 
+            - Correction des bugs et maintenance des plateformes 
+            - Optimiser les performances des plateformes et faire évoluer ses fonctionnalités
+            - Formation des jeunes sur les bases du langage de programmation Python au
+            cours des éditions précédentes de l’[Ecole d'Ete sur l'Intelligence Artificielle (EEIA)](https://eeia.bj)
+            de la [Fondation Vallet](https://fondationvallet.org)
+            - Animation des ateliers de travaux pratiques sur l’Intelligence Artificielle au cours
+            des éditions précédentes de l’École d’Été sur l’Intelligence Artificielle (EEIA)
             - Gestion du réseau informatique et des serveurs de l’organisation
             
-            En tant que développeur web, j'ai eu la chance de travailler pour Bénin Excellence et de concevoir et développer des plateformes pour la Fondation Vallet. Plus précisément, j'ai créé des plateformes de candidatures pour les écoles d'art en France et pour l'Ecole d'Ete sur l'Intelligence Artificielle (EEIA). Chacune de ces plateformes comprenait une interface d'administration avec des fonctionnalités spécifiques telles que le téléchargement des dossiers des élèves par établissement ou la consultation et l'évaluation des dossiers de candidats.
+            En tant que développeur web, j'ai eu la chance de travailler pour Bénin Excellence, de concevoir et de développer des plateformes pour la [Fondation Vallet](https://fondationvallet.org). Plus précisément, j'ai créé des plateformes de candidatures de bourse pour les écoles d'art en France dans le compte de la Fondation Vallet et pour l'[Ecole d'Ete sur l'Intelligence Artificielle (EEIA)](https:eeia.bj). Chacune de ces plateformes comprenait une interface d'administration avec des fonctionnalités spécifiques telles que le téléchargement des dossiers des élèves par établissement ou la consultation et l'évaluation des dossiers de candidats.
 
-            En utilisant mes compétences en tant que développeur Back-end, j'ai développé ces plateformes en utilisant une architecture d'API et une application SPA. Pour le Backend, j'ai utilisé Laravel et pour le front, j'ai utilisé Vue Js. J'ai également accordé une grande importance à la sécurité des API et j'ai amélioré autant que possible les applications frontales.
+            En utilisant mes compétences en tant que développeur Back-end, j'ai développé ces plateformes en utilisant une architecture d'<mark>API</mark> et une application <mark>SPA</mark>(Single Page Application). Pour le Backend, j'ai utilisé <mark>Laravel</mark> et pour le front, j'ai utilisé <mark>Vue Js</mark>. J'ai également accordé une grande importance à la sécurité des API et j'ai amélioré autant que possible le temps de chargement des applications SPA.
 
-            En tant que seul développeur sur ces projets, j'ai utilisé mes expériences précédentes pour respecter les meilleures pratiques, telles que l'utilisation de GitHub ou la création d'environnements de test avant le déploiement. Ces projets m'ont permis de renforcer mes compétences en développement, mais aussi de découvrir de nouveaux outils passionnants.
+            En tant que principal développeur sur ces projets, j'ai utilisé mes expériences précédentes pour respecter les meilleures pratiques, telles que l'utilisation de GitHub ou la création d'environnements de test avant le déploiement. Ces projets m'ont permis de renforcer mes compétences en développement, mais aussi de découvrir de nouveaux outils passionnants.
 
-            En plus de mon rôle de développeur web, j'ai également été chargé de répondre aux questions techniques des utilisateurs en tant qu'informaticien principal de l'organisation. J'ai même eu l'occasion de modifier un portail captif pour empêcher certains appareils d'accéder à la connexion de l'organisation.
+            En plus de mon rôle de développeur web, j’ai également été chargé de répondre aux questions techniques en tant que l'un des informaticiens de l’organisation comme la gestion des serveurs de messagerie. J’ai même eu l’occasion de modifier un portail captif pour empêcher certains appareils d’accéder à la connexion de l’organisation.
 
-            Enfin, j'ai également été formateur en langage Python lors de l'EEIA et j'ai eu l'honneur de superviser un atelier pratique sur l'optimisation des pales d'un hélicoptère pour les apprenants.
+            Enfin, j'ai également été formateur en langage <mark>Python</mark> lors de l'EEIA et j'ai eu l'honneur d'encadrer un atelier pratique sur l'optimisation des pales d'un hélicoptère. Cette expérience m'a permis de rencontrer de nombreux experts qui m'ont transmis de précieuses connaissances sur l'<mark>Intelligence Artificielle</mark>.
       
       - layout: left
         title: SerProWeb
@@ -112,37 +116,70 @@ content:
         sub_title: Stage - Développeur web
         caption: Août 2020 - décembre 2020 | Cotonou (Bénin)
         description: | # this will include new lines to allow paragraphs
+            <ins>TLDR:</ins>
             - Analyser les différents besoins du client
             - Coder le back-end des sites web
             - Rédiger des documentations utilisateurs et techniques
+
+            Cette agence de développement web a été pour moi le début de ma carrière de développeur web. J'y ai appris certaines bonnes pratiques de développement et le travail en équipe. Je développais principalement en utilisant <mark>Laravel</mark> et <mark>Jquery</mark>. J'ai eu également l'opportunité de travailler sur des projets et d'être en relation directement avec les clients.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: INSTITUT NATIONAL SUPERIEUR DE TECHNOLOGIE INDUSTRIELLE DE LOKOSSA, Lokossa (Bénin)
-        caption: 2019
-        sub_title: Licence Professionnelle en Informatique et Télécommunication
-        quote: >
-          Au cours de ce cursus, j'ai eu des bases solides en programmation plus particulièrement en développement web.
-        description: | # this will include new lines to allow paragraphs
-          - Cloud Computing
-          - Big Data et Python
-          - Programmation Web
-          - Définition des modèles pour la prédiction des maladies cardio-vasculaires.
-
-      - layout: left
+        border: weak
         title: Université d'Aix-Marseille, Marseille
         caption: 2022 - 2023
         sub_title: Licence Informatique parcours Mathématiques-Informatique
-        quote: >
-          Au cours de ce cursus, j'ai eu des bases solides en programmation plus particulièrement en informatique thérorique.
         description: | # this will include new lines to allow paragraphs
+          <ins>TLDR:</ins>
           - Algorithmique avancée et théorie des graphes
-          - Classification d'images de mer
-          - Modélisation de la propagation d’une maladie contagieuse
-          - Apprentissage Automatique
-          - Correcteur orthographique
+          - Classification d'images de mer _(TP)_
+          - Modélisation de la propagation d’une maladie contagieuse _(TP)_
+          - Apprentissage Automatique 
+          - Correcteur orthographique _(TP)_
+
+          Ce cursus m'a permis d'approfondir mes connaissances en informatique théorique et de développer mes compétences en travaillant sur des projets pratiques. J'ai ainsi pu maîtriser de nouveaux algorithmes et découvrir de nouveaux langages de programmation tels que <mark>Java</mark>.
+
+          Au-delà de ces enseignements, j'ai particulièrement été marqué par l'apprentissage automatique, qui m'a permis de mieux comprendre les principes du <mark>Machine Learning</mark> et de me familiariser avec les termes spécifiques à ce domaine. Cette formation m'a également permis de prendre conscience de l'importance des mathématiques dans l'ingénierie informatique. J'ai ainsi travaillé en groupe sur un projet portant sur les permutations, pour lequel j'étais en charge du codage en JAVA.
+      - layout: left
+        title: INSTI, Lokossa (Bénin)
+        caption: 2019
+        sub_title: Licence Professionnelle en Informatique et Télécommunication
+        description: | # this will include new lines to allow paragraphs
+          <ins>TLDR:</ins>
+          - Cloud Computing
+          - Big Data et Python
+          - Programmation Web
+          - Définition des modèles pour la prédiction des maladies cardio-vasculaires _(Projet)_
+
+          
+          J'ai obtenu une licence professionnelle en Génie Électrique et Informatique Industrielle à 
+          l'Institut National Superieur de Technologie Industrielle (INSTI), mon premier diplôme universitaire. 
+          Cette formation m'a non seulement introduit à la programmation que j'ai appris à apprécier, mais m'a également initiée au monde professionnel.
+          
+          Ce cursus universitaire m'a permis d'acquérir une grande variété de compétences en électricité, électronique, ainsi qu'en informatique. J'ai pu ainsi découvrir l'intelligence artificielle et la programmation en <mark>Python</mark> à travers le Big Data. Cette formation m'a également initié au développement web.
+
+          Mon intérêt pour l'intelligence artificielle m'a d'ailleurs poussé à faire des recherches et à soutenir mon projet de fin d'études sur la "Définition des modèles contextuels pour la prédiction des maladies cardio-vasculaires". Ce projet m'a permis d'explorer le domaine de l'intelligence artificielle et de faire de l'algorithmique avancée.
+
+  - title: Mes Passe-temps Favoris
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Je m'intéresse beaucoup à la photographie, je ne rate par l'occasion d'immortaliser un moment ou de prendre en photo tout ce que je trouve particulier.
+      
+      J'aime également bouger mon corps à travers la danse. Je fais d'ailleurs actuellement la capoeira.
+      
+      En plus de cela, j'aime aussi me cultiver, je passe pas mal de temps sur les sujets de développement ou technologique de façon générale à travers la lecture et les vidéos.
+
+  - title: Actions Sociales
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Je suis motivé(e) par l'envie de <mark>contribuer</mark> à la société et j'ai toujours cherché à être utile. Pendant mes années universitaires à l'INSTI (Bénin), j'ai participé activement au mouvement scout. Au-delà des animations organisées, j'ai eu l'occasion de participer à des actions de bénévolat, de dons, de sensibilisation et de sécurité. Cette expérience m'a appris de nombreuses valeurs, notamment la vie en communauté, le respect, la responsabilité et surtout la satisfaction de rendre les autres heureux.
+      
+      J'ai également apporté ma contribution à la sensibilisation pendant la pandémie de COVID-19 en participant à une formation proposée par l'ONG Welp. Mon engagement a été remarqué, ce qui m'a permis d'être nommé webmaster de l'association avec honneur. Cette expérience m'a appris que même les petites actions peuvent avoir un grand impact.
+      
+      En raison de ma préoccupation concernant les enjeux environnementaux, j'ai collaboré avec une amie pour proposer une solution visant à prévenir la pollution causée par les mégots de cigarette jetés sur le sol. Notre solution s'intitulait "Porte-Mégots" et consistait en la fabrication et en la distribution de cendriers portatifs. Grâce à cette initiative, j'ai eu la chance d'être sélectionné pour présenter notre solution lors du concours "DD EN TRANS’ : LE DÉVELOPPEMENT DURABLE EST INTERDISCIPLINAIRE" organisé par Aix-Marseille Université. Bien que notre projet n'ait pas remporté de prix, cette expérience a été enrichissante en termes de partage, de rencontre et de [bonne humeur](images/happy-me.JPG).
+
 
 
 # Footer
