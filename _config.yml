@@ -54,30 +54,39 @@ about_content: | # this will include new lines to allow paragraphs
   tels qu'une plateforme ayant déjà accueilli plus de 8000 utilisateurs. Bien que mes compétences soient principalement en développement back-end, je suis tout aussi à l'aise en 
   front-end. Actuellement, je suis familiarisé avec les langages <mark>PHP (Laravel + API)</mark> et <mark>Javascript (Vue Js)</mark>, et j'aime explorer de nouvelles librairies et frameworks pour diversifier mes 
   connaissances. Mon intérêt pour l'intelligence artificielle m'a également conduit à m'informer continuellement dans ce domaine, dans l'espoir d'appliquer cette expertise à la création de solutions innovantes.
+
+  <ins>Accès rapide:</ins> [Mes projets](#projets) -- [Experience](#experience) -- [Education](#education) -- [Mes Passe-temps Favoris](#hobbies) -- [Actions Sociales](#sociales)
   
 content:
-  - title: Mes projets # Title for the section
+  - title: <a id="projets"></a>Mes projets # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Plateforme de candidature à l'EEIA
-        # link: eeia.bj
-        # link_text: Plateforme de candidature à l'Ecole d'Ete sur l'Intelligence Artificielle
+        title: KönigGPT
+        border: weak
+        link: https://konigkoudogbo.dev/konigGPT
+        link_text: konigkoudogbo.dev/konigGPT
         additional_links:
-          - title:  EEIA
-            # icon: fab fa-github
-            url: eeia.beninexcellence.org
           - title:  EEIA-Junior
-            # icon: fab fa-github
-            url: eeia.beninexcellence.org
-        quote: >
-          Cette plateforme permet une dématérialisation du processus de candidature à l'EEIA.
+            icon: fab fa-github
+            url: https://github.com/puzzle29/konigGPT
         description: | # this will include new lines to allow paragraphs
-          Cette plateforme a pour but de permettre à tous ceux qui sont passionnés par l'Intelligence Artificielle de candidater pour l’EEIA (Ecole d’été sur l’intelligence artificielle). L’EEIA est une formation à 75% pratique qui s’étend sur une durée de 4 semaines dans les vacances. Cette formation a pour principal objet l’initiation au domaine de l’Intelligence Artificielle.
+          L'objectif de ce projet est de créer mon propre chatbot utilisant des données personnalisées et effectuant des taches spécifiques. J'ai donc utilisé un exemple de projet de Vercel que j'ai modifié. KonigGPT utilise <mark>NextJs</mark> et l'api d'OpenAI. J'ai exploré diverses méthodes pour un bot personnalisé tel que le <mark>finetuning</mark> d'un model d'openAI, Search-Ask ou encore GPT Index. Pour le moment j'ai juste utilisé le <mark>prompt engineering</mark> pour avoir un prompt personnalisé et lui permettre de répondre en se basant sur ce prompt. 
+      - layout: top-middle
+        title: Classification d'images de mer
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          Ce projet de groupe fait en troisième année à Aix-Marseille Université consistait à classer des images issues des drones. Plus précisément à la classification binaire des images maritimes. Nous avons utilisé <mark>Python</mark> pour ce projet. Pour y arriver nous avons utilisé une représentation en tableau de pixel des images puis nous avons utilisé les machines à vecteurs de support (SVM) de la bibliothèque <mark>Scikit-learn</mark>. Avant de choisir ce modèle, nous avions testé d'autre algorithme comme les <mark>réseaux de neurones</mark> appelé Multilayer Perceptron (MLP) dans Scikit-learn auquel nous avons appliqué GridSearchCV pour trouver les bons <mark>hyperparamètres</mark>. Ce projet m'a permis de découvrir plus en profondeur le Machine Learning et de me familiariser avec ses notions.
+      - layout: top-middle
+        title: Correcteur orthographique
+        description: | # this will include new lines to allow paragraphs
+          Lors de notre cours d'algorithmique à l'université Aix-Marseille, nous avons réalisé un projet en Java qui a pour but de vérifier si un mot donné est présent dans un dictionnaire, sinon il propose une liste de mots très similaires. Nous avons utilisé la <mark>distance de Levenshtein</mark> pour calculer la différence entre les mots et les <mark>trigrammes</mark> pour sélectionner les mots les plus pertinents. Grâce à ce projet, j'ai pu approfondir mes connaissances en Java et comprendre le fonctionnement des correcteurs orthographiques.
+
+  
 
 
 
-  - title: Experience # Title for the section
+  - title: <a id="experience"></a>Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -123,7 +132,7 @@ content:
 
             Cette agence de développement web a été pour moi le début de ma carrière de développeur web. J'y ai appris certaines bonnes pratiques de développement et le travail en équipe. Je développais principalement en utilisant <mark>Laravel</mark> et <mark>Jquery</mark>. J'ai eu également l'opportunité de travailler sur des projets et d'être en relation directement avec les clients.
 
-  - title: Education # Title for the section
+  - title: <a id="education"></a>Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -162,7 +171,7 @@ content:
 
           Mon intérêt pour l'intelligence artificielle m'a d'ailleurs poussé à faire des recherches et à soutenir mon projet de fin d'études sur la "Définition des modèles contextuels pour la prédiction des maladies cardio-vasculaires". Ce projet m'a permis d'explorer le domaine de l'intelligence artificielle et de faire de l'algorithmique avancée.
 
-  - title: Mes Passe-temps Favoris
+  - title: <a id="hobbies"></a>Mes Passe-temps Favoris
     layout: text
     content: | # this will include new lines to allow paragraphs
       Je m'intéresse beaucoup à la photographie, je ne rate par l'occasion d'immortaliser un moment ou de prendre en photo tout ce que je trouve particulier.
@@ -171,10 +180,10 @@ content:
       
       En plus de cela, j'aime aussi me cultiver, je passe pas mal de temps sur les sujets de développement ou technologique de façon générale à travers la lecture et les vidéos.
 
-  - title: Actions Sociales
+  - title: <a id="sociales"></a>Actions Sociales
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Je suis motivé(e) par l'envie de <mark>contribuer</mark> à la société et j'ai toujours cherché à être utile. Pendant mes années universitaires à l'INSTI (Bénin), j'ai participé activement au mouvement scout. Au-delà des animations organisées, j'ai eu l'occasion de participer à des actions de bénévolat, de dons, de sensibilisation et de sécurité. Cette expérience m'a appris de nombreuses valeurs, notamment la vie en communauté, le respect, la responsabilité et surtout la satisfaction de rendre les autres heureux.
+      Je suis motivé par l'envie de <mark>contribuer</mark> à la société et j'ai toujours cherché à être utile. Pendant mes années universitaires à l'INSTI (Bénin), j'ai été très actif dans le mouvement scout. Au-delà des animations organisées, j'ai eu l'occasion de participer à des actions de bénévolat, de dons, de sensibilisation et de sécurité. Cette expérience m'a appris de nombreuses valeurs, notamment la vie en communauté, le respect, la responsabilité et surtout la satisfaction de rendre les autres heureux.
       
       J'ai également apporté ma contribution à la sensibilisation pendant la pandémie de COVID-19 en participant à une formation proposée par l'ONG Welp. Mon engagement a été remarqué, ce qui m'a permis d'être nommé webmaster de l'association avec honneur. Cette expérience m'a appris que même les petites actions peuvent avoir un grand impact.
       
@@ -185,6 +194,7 @@ content:
 # Footer
 footer_show_references: false
 # references_title: References on request (Override references text)
+# The best use of science and tech is to improve quality of life
 
 # Build settings
 remote_theme: sproogen/resume-theme
