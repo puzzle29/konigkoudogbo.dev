@@ -76,7 +76,7 @@ content:
         title: Classification d'images de mer
         border: weak
         description: | # this will include new lines to allow paragraphs
-          Ce projet de groupe fait en troisième année à Aix-Marseille Université consistait à classer des images issues des drones. Plus précisément à la classification binaire des images maritimes. Nous avons utilisé <mark>Python</mark> pour ce projet. Pour y arriver nous avons utilisé une représentation en tableau de pixel des images puis nous avons utilisé les machines à vecteurs de support (SVM) de la bibliothèque <mark>Scikit-learn</mark>. Avant de choisir ce modèle, nous avions testé d'autre algorithme comme les <mark>réseaux de neurones</mark> appelé Multilayer Perceptron (MLP) dans Scikit-learn auquel nous avons appliqué GridSearchCV pour trouver les bons <mark>hyperparamètres</mark>. Ce projet m'a permis de découvrir plus en profondeur le Machine Learning et de me familiariser avec ses notions.
+          Ce projet de groupe fait en troisième année à Aix-Marseille Université consistait à classer des images issues des drones. Plus précisément à la classification binaire des images maritimes. Nous avons utilisé <mark>Python</mark> pour ce projet. Pour y arriver nous avons utilisé une représentation en tableau de pixel des images puis nous avons utilisé les machines à vecteurs de support (SVM) de la bibliothèque <mark>Scikit-learn</mark>. Avant de choisir ce modèle, nous avions testé d'autres algorithmes comme les <mark>réseaux de neurones</mark> appelé Multilayer Perceptron (MLP) dans Scikit-learn auquel nous avons appliqué GridSearchCV pour trouver les bons <mark>hyperparamètres</mark>. Ce projet m'a permis de découvrir plus en profondeur le Machine Learning et de me familiariser avec ses notions.
       - layout: top-middle
         title: Correcteur orthographique
         description: | # this will include new lines to allow paragraphs
@@ -86,7 +86,7 @@ content:
 
 
 
-  - title: <a id="experience"></a>Experience # Title for the section
+  - title: <a id="experience"></a>Expérience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -174,7 +174,7 @@ content:
   - title: <a id="hobbies"></a>Mes Passe-temps Favoris
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Je m'intéresse beaucoup à la photographie, je ne rate par l'occasion d'immortaliser un moment ou de prendre en photo tout ce que je trouve particulier.
+      Je m'intéresse beaucoup à la photographie, je ne rate pas l'occasion d'immortaliser un moment ou de prendre en photo tout ce que je trouve particulier.
       
       J'aime également bouger mon corps à travers la danse. Je fais d'ailleurs actuellement la capoeira.
       
@@ -187,7 +187,7 @@ content:
       
       J'ai également apporté ma contribution à la sensibilisation pendant la pandémie de COVID-19 en participant à une formation proposée par l'ONG Welp. Mon engagement a été remarqué, ce qui m'a permis d'être nommé webmaster de l'association avec honneur. Cette expérience m'a appris que même les petites actions peuvent avoir un grand impact.
       
-      En raison de ma préoccupation concernant les enjeux environnementaux, j'ai collaboré avec une amie pour proposer une solution visant à prévenir la pollution causée par les mégots de cigarette jetés sur le sol. Notre solution s'intitulait "Porte-Mégots" et consistait en la fabrication et en la distribution de cendriers portatifs. Grâce à cette initiative, j'ai eu la chance d'être sélectionné pour présenter notre solution lors du concours "DD EN TRANS’ : LE DÉVELOPPEMENT DURABLE EST INTERDISCIPLINAIRE" organisé par Aix-Marseille Université. Bien que notre projet n'ait pas remporté de prix, cette expérience a été enrichissante en termes de partage, de rencontre et de [bonne humeur](images/happy-me.JPG).
+      En raison de ma préoccupation concernant les enjeux environnementaux, j'ai collaboré avec une amie pour proposer une solution visant à prévenir la pollution causée par les mégots de cigarette jetés sur le sol. Notre solution s'intitulait "Porte-Mégots" et consistait en la fabrication et en la distribution de cendriers portatifs. Grâce à cette initiative, nous avons eu la chance d'être sélectionné pour présenter notre solution lors du concours "DD EN TRANS’ : LE DÉVELOPPEMENT DURABLE EST INTERDISCIPLINAIRE" organisé par Aix-Marseille Université. Bien que notre projet n'ait pas remporté de prix, cette expérience a été enrichissante en termes de partage, de rencontre et de [bonne humeur](images/happy-me.JPG).
 
 
 
