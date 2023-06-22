@@ -9,7 +9,7 @@ version: 2
 name: König KOUDOGBO
 title: Développeur web
 email: koudogbokonig@gmail.com
-phone: +33 7 69 12 49 98
+# phone: +33 7 69 12 49 98
 
 # Dark Mode (true/false/never)
 darkmode: false
