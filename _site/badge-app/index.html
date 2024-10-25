@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CustomFileInputs/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="CustomFileInputs/css/component.css" />
+    <title>Badge App</title>
+    <style>
+        canvas {
+            border: 3px solid black;
+        }
+
+        #save {
+            max-width: 80%;
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+            display: inline-block;
+            overflow: hidden;
+            padding: 0.625rem 1.25rem;
+            color: #d3394c;
+            border: 2px solid currentColor;
+            background-color: transparent;
+            border-radius: unset;
+        }
+
+        #save:hover {
+            color: #722040;
+        }
+
+        .bloc {
+            width: 38rem;
+            margin: auto;
+            text-align: center;
+        }
+
+        #c, .upper-canvas  {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+
+                <div class="bloc">
+                    <h1>Badge App</h1>
+
+                    <canvas id="c"></canvas>
+
+                    <form id="uploadImg" runat="server" class="d-flex justify-content-around mt-4">
+                        <input type="file" name="file-2[]" accept="image/*" id="uploadedImg"
+                            class="inputfile inputfile-2 d-none" data-multiple-caption="{count} files selected"
+                            multiple />
+                        <label for="uploadedImg"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17"
+                                viewBox="0 0 20 17">
+                                <path
+                                    d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z" />
+                            </svg> <span>Choisir une image&hellip;</span></label>
+
+                        <a class="btn btn-success" href="#" id="save" role="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#d3394c" width="20" height="17"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z" />
+                            </svg>
+                            Télécharger
+
+                        </a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/521/fabric.js"
+        integrity="sha512-H2reaY28wpUIX1EKG6WufGHYG/BWvZUfweOdvFB/gW9kh9YSKB9EklGSlIB+XdL0bgavEbp4l+UjQR/mLJwdMg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="CustomFileInputs/js/custom-file-input.js"></script>
+
+    <script>
+        document.getElementById('c').setAttribute('width', 500)
+        document.getElementById('c').setAttribute('height', 500)
+
+        var canvas = new fabric.Canvas('c');
+        var img = new fabric.Image();
+        // Add overlay (decor)
+        canvas.setOverlayImage('decor.png', function () {
+            canvas.overlayImage && canvas.overlayImage.scaleToWidth(canvas.width)
+            canvas.renderAll()
+        }, {
+            // Needed to position overlayImage at 0/0
+            originX: 'left',
+            originY: 'top'
+        });
+
+        // Add image from file
+        document.getElementById("uploadImg").onchange = function (e) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                canvas.remove(img);
+                var image = new Image();
+                image.src = e.target.result;
+                image.onload = function () {
+                    console.log(this.width + 't')
+                    img = new fabric.Image(image);
+                    img.scaleToWidth(canvas.width, false);
+                    canvas.add(img);
+                }
+            }
+            reader.readAsDataURL(e.target.files[0]);
+        }
+
+        // Save image
+        var saveButton = document.getElementById("save");
+        saveButton.addEventListener(
+            "click",
+            function (e) {
+                this.href = canvas.toDataURL('png');
+
+                this.download = "Ayihoun.png";
+            },
+            false
+        );
+
+    </script>
+
+</body>
+
+</html>
