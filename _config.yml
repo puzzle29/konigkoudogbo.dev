@@ -63,6 +63,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Visualiseur 3d avec Potree
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          <iframe src="potree/lion_takanawa/" width="100%" height="800px"></iframe>
+      - layout: top-middle
         title: KönigGPT
         border: weak
         link: https://konigkoudogbo.dev/konigGPT
