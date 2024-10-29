@@ -12,7 +12,7 @@ iframe {
   overflow: auto;
 
   &:hover {
-    // Désactive le défilement de la page parente lorsque l’iframe est survolé
+    //  Désactive le défilement de la page parente lorsque l’iframe est survolé
     body {
       overflow: hidden;
     }
