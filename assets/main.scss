@@ -2,4 +2,19 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import 'modern-resume-theme';
+@import "modern-resume-theme";
+
+body {
+  overflow: auto; // Scroll activé pour la page parente
+}
+
+iframe {
+  overflow: auto;
+
+  &:hover {
+    // Désactive le défilement de la page parente lorsque l’iframe est survolé
+    body {
+      overflow: hidden;
+    }
+  }
+}
