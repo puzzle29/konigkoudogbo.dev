@@ -211,3 +211,8 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+# zay-lab (export Next.js) : Jekyll ignore sinon les fichiers commençant par "_"
+include:
+  - _next
+  - __next.*
